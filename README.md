@@ -1,4 +1,0 @@
-sh
-==
-
-Useful shell scripts
