@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NV=7.4
+NV=8.0
 
 echo "INSTALLING Nebeans SE v$NV"
 echo "Expecting that you will install netbeans in /opt/netbeans-$NV"
@@ -14,7 +14,7 @@ fi
 TDIR=`mktemp -d`
 FILE="netbeans-$NV-javase-linux.sh"
 
-wget -O $TDIR/$FILE http://download.netbeans.org/netbeans/7.4/final/bundles/$FILE
+wget -O $TDIR/$FILE http://download.netbeans.org/netbeans/$NV/final/bundles/$FILE
 
 mkdir -p /opt/netbeans-$NV
 

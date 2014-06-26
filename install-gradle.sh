@@ -1,6 +1,6 @@
 #!/bin/bash
 
-GV=1.9
+GV=1.12
 
 echo "INSTALLING gradle v$GV"
 
@@ -17,10 +17,11 @@ unzip -u $GRADLE_ZIP -d /opt
 rm $GRADLE_ZIP
 
 chmod -R 0775 /opt/gradle-$GV
+ln -s /opt/gradle-$GV /opt/gradle
 
 cat > /etc/profile.d/gradle.sh << GPF
 #!/bin/bash
-GRADLE_HOME=/opt/gradle-$GV
+GRADLE_HOME=/opt/gradle
 PATH=\$PATH:\$GRADLE_HOME/bin
 
 #JVM options for running Gradle can be set via environment variables.
