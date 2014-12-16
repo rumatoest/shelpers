@@ -1,6 +1,6 @@
 #!/bin/bash
 
-GV=1.12
+GV=2.2.1
 
 echo "INSTALLING gradle v$GV"
 
