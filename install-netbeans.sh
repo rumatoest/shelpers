@@ -22,4 +22,4 @@ sh $TDIR/$FILE
 
 rm -Rf $DIR 
 
-sed -i "s/netbeans_default_options=\"/netbeans_default_options=\"--locale en:US --laf javax.swing.plaf.metal.MetalLookAndFeel /g" /opt/netbeans-$NV/etc/netbeans.conf
+sed -i "s/netbeans_default_options=\"/netbeans_default_options=\"--locale en:US --laf javax.swing.plaf.metal.MetalLookAndFeel -J-Dprism.lcdtext=false /g" /opt/netbeans-$NV/etc/netbeans.conf
