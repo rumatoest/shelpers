@@ -1,6 +1,10 @@
 #!/bin/bash
+#
+# Note to activate gradle daemon run from user
+# touch ~/.gradle/gradle.properties && echo "org.gradle.daemon=true" >> ~/.gradle/gradle.properties
 
-GV=2.3
+#Current gradle version
+GV=2.5
 
 echo "INSTALLING gradle v$GV"
 
@@ -17,6 +21,10 @@ unzip -u $GRADLE_ZIP -d /opt
 rm $GRADLE_ZIP
 
 chmod -R 0775 /opt/gradle-$GV
+if [ -L /opt/gradle ]; then
+    rm /opt/gradle
+fi
+
 ln -s /opt/gradle-$GV /opt/gradle
 
 cat > /etc/profile.d/gradle.sh << GPF
