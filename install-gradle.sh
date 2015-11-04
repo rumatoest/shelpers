@@ -4,7 +4,7 @@
 # touch ~/.gradle/gradle.properties && echo "org.gradle.daemon=true" >> ~/.gradle/gradle.properties
 
 #Current gradle version
-GV=2.5
+GV=2.8
 
 echo "INSTALLING gradle v$GV"
 
