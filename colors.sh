@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+# Bash colors snippet. You can export it or just copy/paste
+# Color functions constructed from prefix and color index: c1 "Red"; bg4 "Blue bg"
+
+#COLORS codes: 0-black/gray, 1-red, 2-green, 3-orange/yellow, 4-blue, 5-purple, 6-cyan, 7-gray/white
+Pf(){ printf "\033[$1\033[0m";};
+#COLORS prefixes: c*-color, b*-bold, i*-italic, u*-underline, bg*-backround
+c0(){ Pf "30m$1";};c1(){ Pf "31m$1";};c2(){ Pf "32m$1";};c3(){ Pf "33m$1";};c4(){ Pf "34m$1";};c5(){ Pf "35m$1";};c6(){ Pf "36m$1";};c7(){ Pf "37m$1";};b0(){ Pf "1;30m$1";};b1(){ Pf "1;31m$1";};b2(){ Pf "1;32m$1";};b3(){ Pf "1;33m$1";};b4(){ Pf "1;34m$1";};b5(){ Pf "1;35m$1";};b6(){ Pf "1;36m$1";};b7(){ Pf "1;37m$1";};i0(){ Pf "3;30m$1";};i1(){ Pf "3;31m$1";};i2(){ Pf "3;32m$1";};i3(){ Pf "3;33m$1";};i4(){ Pf "3;34m$1";};i5(){ Pf "3;35m$1";};i6(){ Pf "3;36m$1";};i7(){ Pf "3;37m$1";};u0(){ Pf "4;30m$1";};u1(){ Pf "4;31m$1";};u2(){ Pf "4;32m$1";};u3(){ Pf "4;33m$1";};u4(){ Pf "4;34m$1";};u5(){ Pf "4;35m$1";};u6(){ Pf "4;36m$1";};u7(){ Pf "4;37m$1";};bg0(){ Pf "40m$1";};bg1(){ Pf "41m$1";};bg2(){ Pf "42m$1";};bg3(){ Pf "43m$1";};bg4(){ Pf "44m$1";};bg5(){ Pf "45m$1";};bg6(){ Pf "46m$1";};bg7(){ Pf "47m$1";};
+#HIGH colors prefixes: ch*-color, bh*-bold, ih*-italic, uh*-underline, bgh*-background
+ch0(){ Pf "90m$1";};ch1(){ Pf "91m$1";};ch2(){ Pf "92m$1";};ch3(){ Pf "93m$1";};ch4(){ Pf "94m$1";};ch5(){ Pf "95m$1";};ch6(){ Pf "96m$1";};ch7(){ Pf "97m$1";};bh0(){ Pf "1;90m$1";};bh1(){ Pf "1;91m$1";};bh2(){ Pf "1;92m$1";};bh3(){ Pf "1;93m$1";};bh4(){ Pf "1;94m$1";};bh5(){ Pf "1;95m$1";};bh6(){ Pf "1;96m$1";};bh7(){ Pf "1;97m$1";};ih0(){ Pf "3;90m$1";};ih1(){ Pf "3;91m$1";};ih2(){ Pf "3;92m$1";};ih3(){ Pf "3;93m$1";};ih4(){ Pf "3;94m$1";};ih5(){ Pf "3;95m$1";};ih6(){ Pf "3;96m$1";};ih7(){ Pf "3;97m$1";};uh0(){ Pf "4;90m$1";};uh1(){ Pf "4;91m$1";};uh2(){ Pf "4;92m$1";};uh3(){ Pf "4;93m$1";};uh4(){ Pf "4;94m$1";};uh5(){ Pf "4;95m$1";};uh6(){ Pf "4;96m$1";};uh7(){ Pf "4;97m$1";};bgh0(){ Pf "100m$1";};bgh1(){ Pf "101m$1";};bgh2(){ Pf "102m$1";};bgh3(){ Pf "103m$1";};bgh4(){ Pf "104m$1";};bgh5(){ Pf "105m$1";};bgh6(){ Pf "106m$1";};bgh7(){ Pf "107m$1";}
