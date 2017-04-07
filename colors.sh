@@ -1,7 +1,8 @@
 #!/usr/bin/env sh
-# Bash colors snippet. You can export it or just copy/paste
-# Color functions constructed from prefix and color index: c1 "Red"; bg4 "Blue bg"
-
+# Bash snippets to color your test in shel. You can export it or just copy/paste to your code.
+# Source https://github.com/rumatoest/shelpers
+#
+#Color functions constructed from prefix and color index: c1 "Red"; bg4 "Blue bg"
 #COLORS codes: 0-black/gray, 1-red, 2-green, 3-orange/yellow, 4-blue, 5-purple, 6-cyan, 7-gray/white
 Pf(){ printf "\033[$1\033[0m";};
 #COLORS prefixes: c*-color, b*-bold, i*-italic, u*-underline, bg*-backround

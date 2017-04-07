@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NV=8.0
+NV=8.2
 
 echo "INSTALLING Nebeans SE v$NV"
 echo "Expecting that you will install netbeans in /opt/netbeans-$NV"
