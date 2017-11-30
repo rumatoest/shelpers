@@ -4,7 +4,8 @@
 # touch ~/.gradle/gradle.properties && echo "org.gradle.daemon=true" >> ~/.gradle/gradle.properties
 
 #Current gradle version
-GV=4.3
+#4.3 has bugs
+GV=4.2.1
 
 echo "INSTALLING gradle v$GV"
 
@@ -16,7 +17,7 @@ fi
 
 GRADLE_ZIP=`mktemp`
 
-wget -O $GRADLE_ZIP http://services.gradle.org/distributions/gradle-$GV-bin.zip
+wget -O $GRADLE_ZIP http://services.gradle.org/distributions/gradle-$GV-all.zip
 unzip -u $GRADLE_ZIP -d /opt
 rm $GRADLE_ZIP
 
