@@ -1,0 +1,96 @@
+{
+	"title": "IDEA as in Linux",
+	"rules":
+	[
+		{
+			"description": "Remap to IntelliJ IDEA Classic keymap",
+			"manipulators":
+			[
+				{
+					"type": "basic",
+					"from":{"key_code": "up_arrow","modifiers": {"mandatory":["shift", "control"]}},
+					"to":[{"key_code": "up_arrow","modifiers":["left_shift", "left_command"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "down_arrow","modifiers": {"mandatory":["shift", "control"]}},
+					"to":[{"key_code": "down_arrow","modifiers":["left_shift", "left_command"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "d","modifiers": {"mandatory":["control"]}},
+					"to":[{"key_code": "d","modifiers":["left_command"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "y","modifiers": {"mandatory":["control"]}},
+					"to":[{"key_code": "y","modifiers":["left_command"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "n","modifiers": {"mandatory":["control"]}},
+					"to":[{"key_code": "n","modifiers":["left_command"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "a","modifiers": {"mandatory":["control","shift"]}},
+					"to":[{"key_code": "a","modifiers":["left_command","left_shift"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "n","modifiers": {"mandatory":["control","shift"]}},
+					"to":[{"key_code": "n","modifiers":["left_command","left_shift"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "n","modifiers": {"mandatory":["command","control","shift"]}},
+					"to":[{"key_code": "n","modifiers":["left_option","left_shift", "left_command"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "b","modifiers": {"mandatory":["control"]}},
+					"to":[{"key_code": "b","modifiers":["left_command"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				}
+			]
+		},
+		{
+			"description": "Remap IntelliJ IDEA common keys",
+			"manipulators":
+			[
+				{
+					"type": "basic",
+					"from":{"key_code": "c","modifiers":{"mandatory":["control"]}},
+					"to":[{"key_code": "c","modifiers":["left_command"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "v","modifiers":{"mandatory":["control"]}},
+					"to":[{"key_code": "v","modifiers":["left_command"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "z","modifiers":{"mandatory":["control"]}},
+					"to":[{"key_code": "z","modifiers":["left_command"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "z","modifiers":{"mandatory":["control","shift"]}},
+					"to":[{"key_code": "z","modifiers":["left_command","left_shift"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				}
+			]
+		}
+	]
+}
