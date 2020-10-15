@@ -59,6 +59,24 @@
 					"from":{"key_code": "b","modifiers": {"mandatory":["control"]}},
 					"to":[{"key_code": "b","modifiers":["left_command"]}],
 					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "p","modifiers": {"mandatory":["control"]}},
+					"to":[{"key_code": "p","modifiers":["left_command"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "f","modifiers": {"mandatory":["control"]}},
+					"to":[{"key_code": "f","modifiers":["left_command"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "r","modifiers": {"mandatory":["control"]}},
+					"to":[{"key_code": "r","modifiers":["left_command"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
 				}
 			]
 		},
