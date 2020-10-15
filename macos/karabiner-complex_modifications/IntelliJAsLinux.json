@@ -3,6 +3,24 @@
 	"rules":
 	[
 		{
+			"description": "Remap to IntelliJ IDEA Classic keymap  [HIGH priority]",
+			"manipulators":
+			[
+				{
+					"type": "basic",
+					"from":{"key_code": "home","modifiers": {"optional":["any"]}},
+					"to":[{"key_code": "left_arrow","modifiers":["left_command"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "end","modifiers": {"optional":["any"]}},
+					"to":[{"key_code": "right_arrow","modifiers":["left_command"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				}
+			]
+		},
+		{
 			"description": "Remap to IntelliJ IDEA Classic keymap",
 			"manipulators":
 			[
@@ -77,6 +95,60 @@
 					"from":{"key_code": "r","modifiers": {"mandatory":["control"]}},
 					"to":[{"key_code": "r","modifiers":["left_command"]}],
 					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "q","modifiers": {"mandatory":["control"]}},
+					"to":[{"key_code": "j","modifiers":["left_control"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "l","modifiers": {"mandatory":["control","command"]}},
+					"to":[{"key_code": "l","modifiers":["left_command","left_option"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "o","modifiers": {"mandatory":["control","command"]}},
+					"to":[{"key_code": "o","modifiers":["left_command","left_option"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "i","modifiers": {"mandatory":["control"]}},
+					"to":[{"key_code": "i","modifiers":["left_command"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "f7","modifiers": {"mandatory":["control"]}},
+					"to":[{"key_code": "f7","modifiers":["left_option"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "f7","modifiers": {"mandatory":["control","command"]}},
+					"to":[{"key_code": "f7","modifiers":["left_command","left_option"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "f12","modifiers": {"mandatory":["control"]}},
+					"to":[{"key_code": "f12","modifiers":["left_command"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "slash","modifiers": {"mandatory":["control"]}},
+					"to":[{"key_code": "slash","modifiers":["left_command"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "return_or_enter","modifiers": {"mandatory":["command"]}},
+					"to":[{"key_code": "return_or_enter","modifiers":["left_control"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
 				}
 			]
 		},
@@ -88,6 +160,12 @@
 					"type": "basic",
 					"from":{"key_code": "c","modifiers":{"mandatory":["control"]}},
 					"to":[{"key_code": "c","modifiers":["left_command"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "x","modifiers":{"mandatory":["control"]}},
+					"to":[{"key_code": "x","modifiers":["left_command"]}],
 					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
 				},
 				{
