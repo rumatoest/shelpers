@@ -165,6 +165,12 @@
 				{
 					"type": "basic",
 					"from":{"key_code": "return_or_enter","modifiers": {"mandatory":["command"]}},
+					"to":[{"key_code": "return_or_enter","modifiers":["left_option"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "insert","modifiers": {"mandatory":["command"]}},
 					"to":[{"key_code": "return_or_enter","modifiers":["left_control"]}],
 					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
 				},
