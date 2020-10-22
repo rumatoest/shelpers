@@ -3,25 +3,7 @@
 	"rules":
 	[
 		{
-			"description": "Remap to IntelliJ IDEA Classic keymap  [HIGH priority]",
-			"manipulators":
-			[
-				{
-					"type": "basic",
-					"from":{"key_code": "home","modifiers": {"optional":["any"]}},
-					"to":[{"key_code": "left_arrow","modifiers":["left_command"]}],
-					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
-				},
-				{
-					"type": "basic",
-					"from":{"key_code": "end","modifiers": {"optional":["any"]}},
-					"to":[{"key_code": "right_arrow","modifiers":["left_command"]}],
-					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
-				}
-			]
-		},
-		{
-			"description": "Remap to IntelliJ IDEA Classic keymap",
+			"description": "IntelliJ IDEA Classic based remap",
 			"manipulators":
 			[
 				{
@@ -183,9 +165,21 @@
 			]
 		},
 		{
-			"description": "Remap IntelliJ IDEA common keys",
+			"description": "IntelliJ IDEA remap common keys",
 			"manipulators":
 			[
+				{
+					"type": "basic",
+					"from":{"key_code": "home","modifiers": {"optional":["any"]}},
+					"to":[{"key_code": "left_arrow","modifiers":["left_command"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
+				{
+					"type": "basic",
+					"from":{"key_code": "end","modifiers": {"optional":["any"]}},
+					"to":[{"key_code": "right_arrow","modifiers":["left_command"]}],
+					"conditions": [{"type": "frontmost_application_if", "bundle_identifiers":["^com\\.jetbrains\\.*"]}]
+				},
 				{
 					"type": "basic",
 					"from":{"key_code": "c","modifiers":{"mandatory":["control"]}},

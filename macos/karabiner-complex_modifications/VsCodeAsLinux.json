@@ -54,8 +54,8 @@
 				},
 				{
 					"type": "basic",
-					"from": { "key_code": "k", "modifiers": { "mandatory": ["shift", "control"] } },
-					"to": [ { "key_code": "up_arrow", "modifiers": ["left_shift", "left_command"] }],
+					"from": { "key_code": "p", "modifiers": { "mandatory": ["control"] } },
+					"to": [ { "key_code": "p", "modifiers": ["left_command"] }],
 					"conditions": [{ "type": "frontmost_application_if", "bundle_identifiers":["^com\\.microsoft\\.VSCode"] }]
 				},
 				{
@@ -68,6 +68,48 @@
 					"type": "basic",
 					"from": { "key_code": "p", "modifiers": { "mandatory": ["control","shift"] } },
 					"to": [ { "key_code": "p", "modifiers": ["left_shift","left_command"] }],
+					"conditions": [{ "type": "frontmost_application_if", "bundle_identifiers":["^com\\.microsoft\\.VSCode"] }]
+				},
+				{
+					"type": "basic",
+					"from": { "key_code": "t", "modifiers": { "mandatory": ["control"] } },
+					"to": [ { "key_code": "t", "modifiers": ["left_command"] }],
+					"conditions": [{ "type": "frontmost_application_if", "bundle_identifiers":["^com\\.microsoft\\.VSCode"] }]
+				},
+				{
+					"type": "basic",
+					"from": { "key_code": "m", "modifiers": { "mandatory": ["control","shift"] } },
+					"to": [ { "key_code": "m", "modifiers": ["left_command", "left_shift"] }],
+					"conditions": [{ "type": "frontmost_application_if", "bundle_identifiers":["^com\\.microsoft\\.VSCode"] }]
+				},
+				{
+					"type": "basic",
+					"from": { "key_code": "o", "modifiers": { "mandatory": ["control","shift"] } },
+					"to": [ { "key_code": "o", "modifiers": ["left_shift","left_command"] }],
+					"conditions": [{ "type": "frontmost_application_if", "bundle_identifiers":["^com\\.microsoft\\.VSCode"] }]
+				},
+				{
+					"type": "basic",
+					"from": { "key_code": "w", "modifiers": { "mandatory": ["control","shift"] } },
+					"to": [ { "key_code": "w", "modifiers": ["left_shift","left_command"] }],
+					"conditions": [{ "type": "frontmost_application_if", "bundle_identifiers":["^com\\.microsoft\\.VSCode"] }]
+				},
+				{
+					"type": "basic",
+					"from": { "key_code": "h", "modifiers": { "mandatory": ["control"] } },
+					"to": [ { "key_code": "f", "modifiers": ["left_option","left_command"] }],
+					"conditions": [{ "type": "frontmost_application_if", "bundle_identifiers":["^com\\.microsoft\\.VSCode"] }]
+				},
+				{
+					"type": "basic",
+					"from": { "key_code": "h", "modifiers": { "mandatory": ["control","shift"] } },
+					"to": [ { "key_code": "h", "modifiers": ["left_shift","left_command"] }],
+					"conditions": [{ "type": "frontmost_application_if", "bundle_identifiers":["^com\\.microsoft\\.VSCode"] }]
+				},
+				{
+					"type": "basic",
+					"from": { "key_code": "f", "modifiers": { "mandatory": ["control","shift"] } },
+					"to": [ { "key_code": "f", "modifiers": ["left_shift","left_command"] }],
 					"conditions": [{ "type": "frontmost_application_if", "bundle_identifiers":["^com\\.microsoft\\.VSCode"] }]
 				},
 				{
