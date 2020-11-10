@@ -724,8 +724,7 @@
                                 "^co\\.zeit\\.hyperterm$",
                                 "^co\\.zeit\\.hyper$",
                                 "^io\\.alacritty$",
-                                "^net\\.kovidgoyal\\.kitty$",
-                                "^com\\.jetbrains\\.*"
+                                "^net\\.kovidgoyal\\.kitty$"
                             ],
                             "type": "frontmost_application_unless"
                         }
