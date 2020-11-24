@@ -36,32 +36,15 @@
             "description": "PC-Style Option(Alt)+Tab as Switch Application (Command+Tab)",
             "manipulators": [
                 {
-                    "from": {
-                        "key_code": "tab",
-                        "modifiers": {
-                            "mandatory": [
-                                "option"
-                            ],
-                            "optional": [
-                                "any"
-                            ]
-                        }
-                    },
-                    "to": [
-                        {
-                            "key_code": "tab",
-                            "modifiers": [
-                                "left_command"
-                            ]
-                        }
-                    ],
+                    "from": {"key_code": "tab","modifiers": {"mandatory": ["option"],"optional": ["any"]}},
+                    "to": [{"key_code": "tab","modifiers": ["left_command"]}],
                     "type": "basic"
                 }
             ]
         },
         {
             "description": "PC-Style Control+Left/Right",
-            "manipulators": [
+                "manipulators": [
                 {
                     "type": "basic",
                     "from": {"key_code": "left_arrow","modifiers": {"mandatory": ["control"],"optional": ["any"]}},
@@ -143,7 +126,7 @@
             ]
         },
         {
-            "description": "PC-Style Copy/Paste/Cut",
+            "description": "PC-Style Copy/Paste/Cut/Select All",
             "manipulators": [
                 {
                     "conditions": [
@@ -177,13 +160,12 @@
                                 "^co\\.zeit\\.hyperterm$",
                                 "^co\\.zeit\\.hyper$",
                                 "^io\\.alacritty$",
-                                "^net\\.kovidgoyal\\.kitty$",
-                                "^com\\.jetbrains\\.*"
+                                "^net\\.kovidgoyal\\.kitty$"
                             ],
                             "type": "frontmost_application_unless"
                         }
                     ],
-                    "from": {"key_code": "c","modifiers": {"mandatory": ["control"],"optional": ["any"]}},
+                    "from": {"key_code": "c","modifiers": {"mandatory": ["control"]}},
                     "to": [{"key_code": "c","modifiers": ["left_command"]}],
                     "type": "basic"
                 },
@@ -219,13 +201,12 @@
                                 "^co\\.zeit\\.hyperterm$",
                                 "^co\\.zeit\\.hyper$",
                                 "^io\\.alacritty$",
-                                "^net\\.kovidgoyal\\.kitty$",
-                                "^com\\.jetbrains\\.*"
+                                "^net\\.kovidgoyal\\.kitty$"
                             ],
                             "type": "frontmost_application_unless"
                         }
                     ],
-                    "from": {"key_code": "v","modifiers": {"mandatory": ["control"],"optional": ["any"]}},
+                    "from": {"key_code": "v","modifiers": {"mandatory": ["control"]}},
                     "to": [{"key_code": "v","modifiers": ["left_command"]}],
                     "type": "basic"
                 },
@@ -261,14 +242,54 @@
                                 "^co\\.zeit\\.hyperterm$",
                                 "^co\\.zeit\\.hyper$",
                                 "^io\\.alacritty$",
-                                "^net\\.kovidgoyal\\.kitty$",
-                                "^com\\.jetbrains\\.*"
+                                "^net\\.kovidgoyal\\.kitty$"
                             ],
                             "type": "frontmost_application_unless"
                         }
                     ],
-                    "from": {"key_code": "x","modifiers": {"mandatory": ["control"],"optional": ["any"]}},
+                    "from": {"key_code": "x","modifiers": {"mandatory": ["control"]}},
                     "to": [{"key_code": "x","modifiers": ["left_command"]}],
+                    "type": "basic"
+                },
+                {
+                    "conditions": [
+                        {
+                            "bundle_identifiers": [
+                                "^com\\.microsoft\\.rdc$",
+                                "^com\\.microsoft\\.rdc\\.mac$",
+                                "^com\\.microsoft\\.rdc\\.macos$",
+                                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                                "^net\\.sf\\.cord$",
+                                "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                                "^com\\.itap-mobile\\.qmote$",
+                                "^com\\.nulana\\.remotixmac$",
+                                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                "^com\\.teamviewer\\.TeamViewer$",
+                                "^com\\.vmware\\.horizon$",
+                                "^com\\.2X\\.Client\\.Mac$",
+                                "^com\\.vmware\\.fusion$",
+                                "^com\\.vmware\\.horizon$",
+                                "^com\\.vmware\\.view$",
+                                "^com\\.parallels\\.desktop$",
+                                "^com\\.parallels\\.vm$",
+                                "^com\\.parallels\\.desktop\\.console$",
+                                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                "^com\\.citrix\\.XenAppViewer$",
+                                "^com\\.vmware\\.proxyApp\\.",
+                                "^com\\.parallels\\.winapp\\.",
+                                "^com\\.apple\\.Terminal$",
+                                "^com\\.googlecode\\.iterm2$",
+                                "^co\\.zeit\\.hyperterm$",
+                                "^co\\.zeit\\.hyper$",
+                                "^io\\.alacritty$",
+                                "^net\\.kovidgoyal\\.kitty$"
+                            ],
+                            "type": "frontmost_application_unless"
+                        }
+                    ],
+                    "from": {"key_code": "a","modifiers": {"mandatory": ["control"]}},
+                    "to": [{"key_code": "a","modifiers": ["left_command"]}],
                     "type": "basic"
                 }
             ]
@@ -309,110 +330,16 @@
                                 "^co\\.zeit\\.hyperterm$",
                                 "^co\\.zeit\\.hyper$",
                                 "^io\\.alacritty$",
-                                "^net\\.kovidgoyal\\.kitty$",
-                                "^com\\.jetbrains\\.*"
+                                "^net\\.kovidgoyal\\.kitty$"
                             ],
                             "type": "frontmost_application_unless"
                         }
                     ],
-                    "from": {"key_code": "z","modifiers": {"mandatory": ["control"],"optional": ["any"]}},
+                    "from": {"key_code": "z","modifiers": {"mandatory": ["control"]}},
                     "to": [{"key_code": "z","modifiers": ["left_command"]}]
                 },
                 {
                     "type": "basic",
-                    "conditions": [
-                        {
-                            "bundle_identifiers": [
-                                "^com\\.microsoft\\.rdc$",
-                                "^com\\.microsoft\\.rdc\\.mac$",
-                                "^com\\.microsoft\\.rdc\\.macos$",
-                                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                "^net\\.sf\\.cord$",
-                                "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                "^com\\.itap-mobile\\.qmote$",
-                                "^com\\.nulana\\.remotixmac$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
-                                "^com\\.teamviewer\\.TeamViewer$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.2X\\.Client\\.Mac$",
-                                "^com\\.vmware\\.fusion$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.vmware\\.view$",
-                                "^com\\.parallels\\.desktop$",
-                                "^com\\.parallels\\.vm$",
-                                "^com\\.parallels\\.desktop\\.console$",
-                                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                "^com\\.citrix\\.XenAppViewer$",
-                                "^com\\.vmware\\.proxyApp\\.",
-                                "^com\\.parallels\\.winapp\\.",
-                                "^com\\.apple\\.Terminal$",
-                                "^com\\.googlecode\\.iterm2$",
-                                "^co\\.zeit\\.hyperterm$",
-                                "^co\\.zeit\\.hyper$",
-                                "^io\\.alacritty$",
-                                "^net\\.kovidgoyal\\.kitty$",
-                                "^com\\.jetbrains\\.*"
-                            ],
-                            "type": "frontmost_application_unless"
-                        }
-                    ],
-                    "from": {"key_code": "y","modifiers": {"mandatory": ["control"],"optional": ["any"]}},
-                    "to": [{"key_code": "z","modifiers": ["left_command","left_shift"]}]
-                }
-            ]
-        },
-        {
-            "description": "PC-Style Select-All",
-            "manipulators": [
-                {
-                    "conditions": [
-                        {
-                            "bundle_identifiers": [
-                                "^com\\.microsoft\\.rdc$",
-                                "^com\\.microsoft\\.rdc\\.mac$",
-                                "^com\\.microsoft\\.rdc\\.macos$",
-                                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                "^net\\.sf\\.cord$",
-                                "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                "^com\\.itap-mobile\\.qmote$",
-                                "^com\\.nulana\\.remotixmac$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
-                                "^com\\.teamviewer\\.TeamViewer$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.2X\\.Client\\.Mac$",
-                                "^com\\.vmware\\.fusion$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.vmware\\.view$",
-                                "^com\\.parallels\\.desktop$",
-                                "^com\\.parallels\\.vm$",
-                                "^com\\.parallels\\.desktop\\.console$",
-                                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                "^com\\.citrix\\.XenAppViewer$",
-                                "^com\\.vmware\\.proxyApp\\.",
-                                "^com\\.parallels\\.winapp\\.",
-                                "^com\\.apple\\.Terminal$",
-                                "^com\\.googlecode\\.iterm2$",
-                                "^co\\.zeit\\.hyperterm$",
-                                "^co\\.zeit\\.hyper$",
-                                "^io\\.alacritty$",
-                                "^net\\.kovidgoyal\\.kitty$",
-                                "^com\\.jetbrains\\.*"
-                            ],
-                            "type": "frontmost_application_unless"
-                        }
-                    ],
-                    "from": {"key_code": "a","modifiers": {"mandatory": ["control"]}},
-                    "to": [{"key_code": "a","modifiers": ["left_command"]}],
-                    "type": "basic"
-                }
-            ]
-        },
-        {
-            "description": "PC-Style Save",
-            "manipulators": [
-                {
                     "conditions": [
                         {
                             "bundle_identifiers": [
@@ -449,26 +376,95 @@
                             "type": "frontmost_application_unless"
                         }
                     ],
-                    "from": {
-                        "key_code": "s",
-                        "modifiers": {
-                            "mandatory": [
-                                "control"
-                            ],
-                            "optional": [
-                                "any"
-                            ]
-                        }
-                    },
-                    "to": [
+                    "from": {"key_code": "z","modifiers": {"mandatory": ["control","shift"]}},
+                    "to": [{"key_code": "z","modifiers": ["left_command","left_shift"]}]
+                }
+            ]
+        },
+        {
+            "description": "PC-Style Save/Save All",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {"key_code": "s","modifiers": { "mandatory": ["control"]}},
+                    "to": [{"key_code": "s","modifiers": ["left_command"]}],
+                    "conditions": [
                         {
-                            "key_code": "s",
-                            "modifiers": [
-                                "left_command"
-                            ]
+                            "bundle_identifiers": [
+                                "^com\\.microsoft\\.rdc$",
+                                "^com\\.microsoft\\.rdc\\.mac$",
+                                "^com\\.microsoft\\.rdc\\.macos$",
+                                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                                "^net\\.sf\\.cord$",
+                                "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                                "^com\\.itap-mobile\\.qmote$",
+                                "^com\\.nulana\\.remotixmac$",
+                                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                "^com\\.teamviewer\\.TeamViewer$",
+                                "^com\\.vmware\\.horizon$",
+                                "^com\\.2X\\.Client\\.Mac$",
+                                "^com\\.vmware\\.fusion$",
+                                "^com\\.vmware\\.horizon$",
+                                "^com\\.vmware\\.view$",
+                                "^com\\.parallels\\.desktop$",
+                                "^com\\.parallels\\.vm$",
+                                "^com\\.parallels\\.desktop\\.console$",
+                                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                "^com\\.citrix\\.XenAppViewer$",
+                                "^com\\.vmware\\.proxyApp\\.",
+                                "^com\\.parallels\\.winapp\\.",
+                                "^com\\.apple\\.Terminal$",
+                                "^com\\.googlecode\\.iterm2$",
+                                "^co\\.zeit\\.hyperterm$",
+                                "^co\\.zeit\\.hyper$",
+                                "^io\\.alacritty$",
+                                "^net\\.kovidgoyal\\.kitty$"
+                            ],
+                            "type": "frontmost_application_unless"
                         }
-                    ],
-                    "type": "basic"
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {"key_code": "s","modifiers": { "mandatory": ["control","shift"]}},
+                    "to": [{"key_code": "s","modifiers": ["left_command","left_shift"]}],
+                    "conditions": [
+                        {
+                            "bundle_identifiers": [
+                                "^com\\.microsoft\\.rdc$",
+                                "^com\\.microsoft\\.rdc\\.mac$",
+                                "^com\\.microsoft\\.rdc\\.macos$",
+                                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
+                                "^net\\.sf\\.cord$",
+                                "^com\\.thinomenon\\.RemoteDesktopConnection$",
+                                "^com\\.itap-mobile\\.qmote$",
+                                "^com\\.nulana\\.remotixmac$",
+                                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
+                                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                "^com\\.teamviewer\\.TeamViewer$",
+                                "^com\\.vmware\\.horizon$",
+                                "^com\\.2X\\.Client\\.Mac$",
+                                "^com\\.vmware\\.fusion$",
+                                "^com\\.vmware\\.horizon$",
+                                "^com\\.vmware\\.view$",
+                                "^com\\.parallels\\.desktop$",
+                                "^com\\.parallels\\.vm$",
+                                "^com\\.parallels\\.desktop\\.console$",
+                                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                "^com\\.citrix\\.XenAppViewer$",
+                                "^com\\.vmware\\.proxyApp\\.",
+                                "^com\\.parallels\\.winapp\\.",
+                                "^com\\.apple\\.Terminal$",
+                                "^com\\.googlecode\\.iterm2$",
+                                "^co\\.zeit\\.hyperterm$",
+                                "^co\\.zeit\\.hyper$",
+                                "^io\\.alacritty$",
+                                "^net\\.kovidgoyal\\.kitty$"
+                            ],
+                            "type": "frontmost_application_unless"
+                        }
+                    ]
                 }
             ]
         },
