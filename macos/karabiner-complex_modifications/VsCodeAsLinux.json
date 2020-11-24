@@ -126,6 +126,12 @@
 				},
 				{
 					"type": "basic",
+					"from": { "key_code": "backslash", "modifiers": { "mandatory": ["shift","control"] } },
+					"to": [ { "key_code": "backslash", "modifiers": ["left_shift", "left_command"] }],
+					"conditions": [{ "type": "frontmost_application_if", "bundle_identifiers":["^com\\.microsoft\\.VSCode"] }]
+				},
+				{
+					"type": "basic",
 					"from": { "key_code": "hyphen", "modifiers": { "mandatory": ["control","command"] } },
 					"to": [ { "key_code": "hyphen", "modifiers": ["left_control"] }],
 					"conditions": [{ "type": "frontmost_application_if", "bundle_identifiers":["^com\\.microsoft\\.VSCode"] }]
