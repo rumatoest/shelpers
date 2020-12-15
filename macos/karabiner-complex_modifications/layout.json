@@ -152,13 +152,13 @@
 		},
 		{
 			"type": "basic",
-			"from": {"key_code": "left_arrow","modifiers": {"mandatory": ["shift","control"]}},
+			"from": {"key_code": "left_arrow","modifiers": {"mandatory": ["control","command"]}},
 			"to": [{"key_code": "left_arrow","modifiers": ["left_command","left_shift"]}],
 			"conditions":[{"type":"frontmost_application_if", "bundle_identifiers":["^com\\.googlecode\\.iterm2.*"]}]
 		},
 		{
 			"type": "basic",
-			"from": {"key_code": "right_arrow","modifiers": {"mandatory": ["shift","control"]}},
+			"from": {"key_code": "right_arrow","modifiers": {"mandatory": ["control","command"]}},
 			"to": [{"key_code": "right_arrow","modifiers": ["left_command","left_shift"]}],
 			"conditions":[{"type":"frontmost_application_if", "bundle_identifiers":["^com\\.googlecode\\.iterm2.*"]}]
 		},
@@ -166,6 +166,18 @@
 			"type": "basic",
 			"from": {"key_code": "delete_or_backspace","modifiers": {"mandatory": ["control"]}},
 			"to": [{"key_code": "delete_or_backspace","modifiers": ["left_option"]}],
+			"conditions":[{"type":"frontmost_application_if", "bundle_identifiers":["^com\\.googlecode\\.iterm2.*"]}]
+		},
+		{
+			"type": "basic",
+			"from": {"key_code": "left_arrow","modifiers": {"mandatory": ["control"]}},
+			"to": [{"key_code": "left_arrow","modifiers": ["left_option"]}],
+			"conditions":[{"type":"frontmost_application_if", "bundle_identifiers":["^com\\.googlecode\\.iterm2.*"]}]
+		},
+		{
+			"type": "basic",
+			"from": {"key_code": "right_arrow","modifiers": {"mandatory": ["control"]}},
+			"to": [{"key_code": "right_arrow","modifiers": ["left_option"]}],
 			"conditions":[{"type":"frontmost_application_if", "bundle_identifiers":["^com\\.googlecode\\.iterm2.*"]}]
 		}
 		]

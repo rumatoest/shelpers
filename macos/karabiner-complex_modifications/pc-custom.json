@@ -78,7 +78,8 @@
                                 "^co\\.zeit\\.hyperterm$",
                                 "^co\\.zeit\\.hyper$",
                                 "^io\\.alacritty$",
-                                "^net\\.kovidgoyal\\.kitty$"
+                                "^net\\.kovidgoyal\\.kitty$",
+                                "^com\\.googlecode\\.iterm2.*"
                             ],
                             "type": "frontmost_application_unless"
                         }
@@ -117,7 +118,8 @@
                                 "^co\\.zeit\\.hyperterm$",
                                 "^co\\.zeit\\.hyper$",
                                 "^io\\.alacritty$",
-                                "^net\\.kovidgoyal\\.kitty$"
+                                "^net\\.kovidgoyal\\.kitty$",
+                                "^com\\.googlecode\\.iterm2.*"
                             ],
                             "type": "frontmost_application_unless"
                         }
