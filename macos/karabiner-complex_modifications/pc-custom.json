@@ -66,28 +66,14 @@
                     "conditions": [
                         {
                             "bundle_identifiers": [
-                                "^com\\.microsoft\\.rdc$",
-                                "^com\\.microsoft\\.rdc\\.mac$",
-                                "^com\\.microsoft\\.rdc\\.macos$",
-                                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                "^net\\.sf\\.cord$",
-                                "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                "^com\\.itap-mobile\\.qmote$",
+                                "^com\\.microsoft\\.rdc",
                                 "^com\\.nulana\\.remotixmac$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                "^com\\.p5sys\\.jump\\.mac\\.viewer",
                                 "^com\\.teamviewer\\.TeamViewer$",
-                                "^com\\.vmware\\.horizon$",
                                 "^com\\.2X\\.Client\\.Mac$",
-                                "^com\\.vmware\\.fusion$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.vmware\\.view$",
-                                "^com\\.parallels\\.desktop$",
+                                "^com\\.parallels\\.desktop",
                                 "^com\\.parallels\\.vm$",
-                                "^com\\.parallels\\.desktop\\.console$",
                                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                "^com\\.citrix\\.XenAppViewer$",
-                                "^com\\.vmware\\.proxyApp\\.",
                                 "^com\\.parallels\\.winapp\\.",
                                 "^co\\.zeit\\.hyperterm$",
                                 "^co\\.zeit\\.hyper$",
@@ -118,28 +104,14 @@
                     "conditions": [
                         {
                             "bundle_identifiers": [
-                                "^com\\.microsoft\\.rdc$",
-                                "^com\\.microsoft\\.rdc\\.mac$",
-                                "^com\\.microsoft\\.rdc\\.macos$",
-                                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                "^net\\.sf\\.cord$",
-                                "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                "^com\\.itap-mobile\\.qmote$",
+                                "^com\\.microsoft\\.rdc",
                                 "^com\\.nulana\\.remotixmac$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                "^com\\.p5sys\\.jump\\.mac\\.viewer",
                                 "^com\\.teamviewer\\.TeamViewer$",
-                                "^com\\.vmware\\.horizon$",
                                 "^com\\.2X\\.Client\\.Mac$",
-                                "^com\\.vmware\\.fusion$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.vmware\\.view$",
-                                "^com\\.parallels\\.desktop$",
+                                "^com\\.parallels\\.desktop",
                                 "^com\\.parallels\\.vm$",
-                                "^com\\.parallels\\.desktop\\.console$",
                                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                "^com\\.citrix\\.XenAppViewer$",
-                                "^com\\.vmware\\.proxyApp\\.",
                                 "^com\\.parallels\\.winapp\\.",
                                 "^co\\.zeit\\.hyperterm$",
                                 "^co\\.zeit\\.hyper$",
@@ -172,28 +144,14 @@
                     "conditions": [
                         {
                             "bundle_identifiers": [
-                                "^com\\.microsoft\\.rdc$",
-                                "^com\\.microsoft\\.rdc\\.mac$",
-                                "^com\\.microsoft\\.rdc\\.macos$",
-                                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                "^net\\.sf\\.cord$",
-                                "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                "^com\\.itap-mobile\\.qmote$",
+                                "^com\\.microsoft\\.rdc",
                                 "^com\\.nulana\\.remotixmac$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                "^com\\.p5sys\\.jump\\.mac\\.viewer",
                                 "^com\\.teamviewer\\.TeamViewer$",
-                                "^com\\.vmware\\.horizon$",
                                 "^com\\.2X\\.Client\\.Mac$",
-                                "^com\\.vmware\\.fusion$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.vmware\\.view$",
-                                "^com\\.parallels\\.desktop$",
+                                "^com\\.parallels\\.desktop",
                                 "^com\\.parallels\\.vm$",
-                                "^com\\.parallels\\.desktop\\.console$",
                                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                "^com\\.citrix\\.XenAppViewer$",
-                                "^com\\.vmware\\.proxyApp\\.",
                                 "^com\\.parallels\\.winapp\\.",
                                 "^com\\.apple\\.Terminal$",
                                 "^com\\.googlecode\\.iterm2$",
@@ -213,28 +171,14 @@
                     "conditions": [
                         {
                             "bundle_identifiers": [
-                                "^com\\.microsoft\\.rdc$",
-                                "^com\\.microsoft\\.rdc\\.mac$",
-                                "^com\\.microsoft\\.rdc\\.macos$",
-                                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                "^net\\.sf\\.cord$",
-                                "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                "^com\\.itap-mobile\\.qmote$",
+                                "^com\\.microsoft\\.rdc",
                                 "^com\\.nulana\\.remotixmac$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                "^com\\.p5sys\\.jump\\.mac\\.viewer",
                                 "^com\\.teamviewer\\.TeamViewer$",
-                                "^com\\.vmware\\.horizon$",
                                 "^com\\.2X\\.Client\\.Mac$",
-                                "^com\\.vmware\\.fusion$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.vmware\\.view$",
-                                "^com\\.parallels\\.desktop$",
+                                "^com\\.parallels\\.desktop",
                                 "^com\\.parallels\\.vm$",
-                                "^com\\.parallels\\.desktop\\.console$",
                                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                "^com\\.citrix\\.XenAppViewer$",
-                                "^com\\.vmware\\.proxyApp\\.",
                                 "^com\\.parallels\\.winapp\\.",
                                 "^com\\.apple\\.Terminal$",
                                 "^com\\.googlecode\\.iterm2$",
@@ -254,28 +198,14 @@
                     "conditions": [
                         {
                             "bundle_identifiers": [
-                                "^com\\.microsoft\\.rdc$",
-                                "^com\\.microsoft\\.rdc\\.mac$",
-                                "^com\\.microsoft\\.rdc\\.macos$",
-                                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                "^net\\.sf\\.cord$",
-                                "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                "^com\\.itap-mobile\\.qmote$",
+                                "^com\\.microsoft\\.rdc",
                                 "^com\\.nulana\\.remotixmac$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                "^com\\.p5sys\\.jump\\.mac\\.viewer",
                                 "^com\\.teamviewer\\.TeamViewer$",
-                                "^com\\.vmware\\.horizon$",
                                 "^com\\.2X\\.Client\\.Mac$",
-                                "^com\\.vmware\\.fusion$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.vmware\\.view$",
-                                "^com\\.parallels\\.desktop$",
+                                "^com\\.parallels\\.desktop",
                                 "^com\\.parallels\\.vm$",
-                                "^com\\.parallels\\.desktop\\.console$",
                                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                "^com\\.citrix\\.XenAppViewer$",
-                                "^com\\.vmware\\.proxyApp\\.",
                                 "^com\\.parallels\\.winapp\\.",
                                 "^com\\.apple\\.Terminal$",
                                 "^com\\.googlecode\\.iterm2$",
@@ -295,28 +225,14 @@
                     "conditions": [
                         {
                             "bundle_identifiers": [
-                                "^com\\.microsoft\\.rdc$",
-                                "^com\\.microsoft\\.rdc\\.mac$",
-                                "^com\\.microsoft\\.rdc\\.macos$",
-                                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                "^net\\.sf\\.cord$",
-                                "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                "^com\\.itap-mobile\\.qmote$",
+                                "^com\\.microsoft\\.rdc",
                                 "^com\\.nulana\\.remotixmac$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                "^com\\.p5sys\\.jump\\.mac\\.viewer",
                                 "^com\\.teamviewer\\.TeamViewer$",
-                                "^com\\.vmware\\.horizon$",
                                 "^com\\.2X\\.Client\\.Mac$",
-                                "^com\\.vmware\\.fusion$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.vmware\\.view$",
-                                "^com\\.parallels\\.desktop$",
+                                "^com\\.parallels\\.desktop",
                                 "^com\\.parallels\\.vm$",
-                                "^com\\.parallels\\.desktop\\.console$",
                                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                "^com\\.citrix\\.XenAppViewer$",
-                                "^com\\.vmware\\.proxyApp\\.",
                                 "^com\\.parallels\\.winapp\\.",
                                 "^com\\.apple\\.Terminal$",
                                 "^com\\.googlecode\\.iterm2$",
@@ -335,6 +251,39 @@
             ]
         },
         {
+            "description": "PC-Style Paste RAW (Ctrl+Shift+V)",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {"key_code": "v","modifiers": {"mandatory": ["control","shift"]}},
+                    "to": [{"key_code": "v","modifiers": ["left_command","left_shift"]}],
+                    "conditions": [
+                        {
+                            "bundle_identifiers": [
+                                "^com\\.microsoft\\.rdc",
+                                "^com\\.nulana\\.remotixmac$",
+                                "^com\\.p5sys\\.jump\\.mac\\.viewer",
+                                "^com\\.teamviewer\\.TeamViewer$",
+                                "^com\\.2X\\.Client\\.Mac$",
+                                "^com\\.parallels\\.desktop",
+                                "^com\\.parallels\\.vm$",
+                                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                "^com\\.parallels\\.winapp\\.",
+                                "^com\\.apple\\.Terminal$",
+                                "^com\\.googlecode\\.iterm2$",
+                                "^co\\.zeit\\.hyperterm$",
+                                "^co\\.zeit\\.hyper$",
+                                "^io\\.alacritty$",
+                                "^net\\.kovidgoyal\\.kitty$"
+                            ],
+                            "type": "frontmost_application_unless"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
             "description": "PC-Style Undo/Redo",
             "manipulators": [
                 {
@@ -342,28 +291,14 @@
                     "conditions": [
                         {
                             "bundle_identifiers": [
-                                "^com\\.microsoft\\.rdc$",
-                                "^com\\.microsoft\\.rdc\\.mac$",
-                                "^com\\.microsoft\\.rdc\\.macos$",
-                                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                "^net\\.sf\\.cord$",
-                                "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                "^com\\.itap-mobile\\.qmote$",
+                                "^com\\.microsoft\\.rdc",
                                 "^com\\.nulana\\.remotixmac$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                "^com\\.p5sys\\.jump\\.mac\\.viewer",
                                 "^com\\.teamviewer\\.TeamViewer$",
-                                "^com\\.vmware\\.horizon$",
                                 "^com\\.2X\\.Client\\.Mac$",
-                                "^com\\.vmware\\.fusion$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.vmware\\.view$",
-                                "^com\\.parallels\\.desktop$",
+                                "^com\\.parallels\\.desktop",
                                 "^com\\.parallels\\.vm$",
-                                "^com\\.parallels\\.desktop\\.console$",
                                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                "^com\\.citrix\\.XenAppViewer$",
-                                "^com\\.vmware\\.proxyApp\\.",
                                 "^com\\.parallels\\.winapp\\.",
                                 "^com\\.apple\\.Terminal$",
                                 "^com\\.googlecode\\.iterm2$",
@@ -383,28 +318,14 @@
                     "conditions": [
                         {
                             "bundle_identifiers": [
-                                "^com\\.microsoft\\.rdc$",
-                                "^com\\.microsoft\\.rdc\\.mac$",
-                                "^com\\.microsoft\\.rdc\\.macos$",
-                                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                "^net\\.sf\\.cord$",
-                                "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                "^com\\.itap-mobile\\.qmote$",
+                                "^com\\.microsoft\\.rdc",
                                 "^com\\.nulana\\.remotixmac$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                "^com\\.p5sys\\.jump\\.mac\\.viewer",
                                 "^com\\.teamviewer\\.TeamViewer$",
-                                "^com\\.vmware\\.horizon$",
                                 "^com\\.2X\\.Client\\.Mac$",
-                                "^com\\.vmware\\.fusion$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.vmware\\.view$",
-                                "^com\\.parallels\\.desktop$",
+                                "^com\\.parallels\\.desktop",
                                 "^com\\.parallels\\.vm$",
-                                "^com\\.parallels\\.desktop\\.console$",
                                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                "^com\\.citrix\\.XenAppViewer$",
-                                "^com\\.vmware\\.proxyApp\\.",
                                 "^com\\.parallels\\.winapp\\.",
                                 "^com\\.apple\\.Terminal$",
                                 "^com\\.googlecode\\.iterm2$",
@@ -431,28 +352,14 @@
                     "conditions": [
                         {
                             "bundle_identifiers": [
-                                "^com\\.microsoft\\.rdc$",
-                                "^com\\.microsoft\\.rdc\\.mac$",
-                                "^com\\.microsoft\\.rdc\\.macos$",
-                                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                "^net\\.sf\\.cord$",
-                                "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                "^com\\.itap-mobile\\.qmote$",
+                                "^com\\.microsoft\\.rdc",
                                 "^com\\.nulana\\.remotixmac$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                "^com\\.p5sys\\.jump\\.mac\\.viewer",
                                 "^com\\.teamviewer\\.TeamViewer$",
-                                "^com\\.vmware\\.horizon$",
                                 "^com\\.2X\\.Client\\.Mac$",
-                                "^com\\.vmware\\.fusion$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.vmware\\.view$",
-                                "^com\\.parallels\\.desktop$",
+                                "^com\\.parallels\\.desktop",
                                 "^com\\.parallels\\.vm$",
-                                "^com\\.parallels\\.desktop\\.console$",
                                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                "^com\\.citrix\\.XenAppViewer$",
-                                "^com\\.vmware\\.proxyApp\\.",
                                 "^com\\.parallels\\.winapp\\.",
                                 "^com\\.apple\\.Terminal$",
                                 "^com\\.googlecode\\.iterm2$",
@@ -472,28 +379,14 @@
                     "conditions": [
                         {
                             "bundle_identifiers": [
-                                "^com\\.microsoft\\.rdc$",
-                                "^com\\.microsoft\\.rdc\\.mac$",
-                                "^com\\.microsoft\\.rdc\\.macos$",
-                                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                "^net\\.sf\\.cord$",
-                                "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                "^com\\.itap-mobile\\.qmote$",
+                                "^com\\.microsoft\\.rdc",
                                 "^com\\.nulana\\.remotixmac$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                "^com\\.p5sys\\.jump\\.mac\\.viewer",
                                 "^com\\.teamviewer\\.TeamViewer$",
-                                "^com\\.vmware\\.horizon$",
                                 "^com\\.2X\\.Client\\.Mac$",
-                                "^com\\.vmware\\.fusion$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.vmware\\.view$",
-                                "^com\\.parallels\\.desktop$",
+                                "^com\\.parallels\\.desktop",
                                 "^com\\.parallels\\.vm$",
-                                "^com\\.parallels\\.desktop\\.console$",
                                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                "^com\\.citrix\\.XenAppViewer$",
-                                "^com\\.vmware\\.proxyApp\\.",
                                 "^com\\.parallels\\.winapp\\.",
                                 "^com\\.apple\\.Terminal$",
                                 "^com\\.googlecode\\.iterm2$",
@@ -505,116 +398,6 @@
                             "type": "frontmost_application_unless"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "description": "PC-Style Spotlight Search (Command+S)",
-            "manipulators": [
-                {
-                    "conditions": [
-                        {
-                            "bundle_identifiers": [
-                                "^com\\.microsoft\\.rdc$",
-                                "^com\\.microsoft\\.rdc\\.mac$",
-                                "^com\\.microsoft\\.rdc\\.macos$",
-                                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                "^net\\.sf\\.cord$",
-                                "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                "^com\\.itap-mobile\\.qmote$",
-                                "^com\\.nulana\\.remotixmac$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
-                                "^com\\.teamviewer\\.TeamViewer$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.2X\\.Client\\.Mac$",
-                                "^com\\.vmware\\.fusion$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.vmware\\.view$",
-                                "^com\\.parallels\\.desktop$",
-                                "^com\\.parallels\\.vm$",
-                                "^com\\.parallels\\.desktop\\.console$",
-                                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                "^com\\.citrix\\.XenAppViewer$",
-                                "^com\\.vmware\\.proxyApp\\.",
-                                "^com\\.parallels\\.winapp\\.",
-                                "^com\\.jetbrains\\.*"
-                            ],
-                            "type": "frontmost_application_unless"
-                        }
-                    ],
-                    "from": {
-                        "key_code": "s",
-                        "modifiers": {
-                            "mandatory": [
-                                "command"
-                            ]
-                        }
-                    },
-                    "to": [
-                        {
-                            "key_code": "spacebar",
-                            "modifiers": [
-                                "left_command"
-                            ]
-                        }
-                    ],
-                    "type": "basic"
-                }
-            ]
-        },
-        {
-            "description": "PC-Style Switch Input (Command+Space)",
-            "manipulators": [
-                {
-                    "conditions": [
-                        {
-                            "bundle_identifiers": [
-                                "^com\\.microsoft\\.rdc$",
-                                "^com\\.microsoft\\.rdc\\.mac$",
-                                "^com\\.microsoft\\.rdc\\.macos$",
-                                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                "^net\\.sf\\.cord$",
-                                "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                "^com\\.itap-mobile\\.qmote$",
-                                "^com\\.nulana\\.remotixmac$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
-                                "^com\\.teamviewer\\.TeamViewer$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.2X\\.Client\\.Mac$",
-                                "^com\\.vmware\\.fusion$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.vmware\\.view$",
-                                "^com\\.parallels\\.desktop$",
-                                "^com\\.parallels\\.vm$",
-                                "^com\\.parallels\\.desktop\\.console$",
-                                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                "^com\\.citrix\\.XenAppViewer$",
-                                "^com\\.vmware\\.proxyApp\\.",
-                                "^com\\.parallels\\.winapp\\.",
-                                "^com\\.jetbrains\\.*"
-                            ],
-                            "type": "frontmost_application_unless"
-                        }
-                    ],
-                    "from": {
-                        "key_code": "spacebar",
-                        "modifiers": {
-                            "mandatory": [
-                                "command"
-                            ]
-                        }
-                    },
-                    "to": [
-                        {
-                            "key_code": "spacebar",
-                            "modifiers": [
-                                "left_control"
-                            ]
-                        }
-                    ],
-                    "type": "basic"
                 }
             ]
         },
@@ -834,28 +617,14 @@
                     "conditions": [
                         {
                             "bundle_identifiers": [
-                                "^com\\.microsoft\\.rdc$",
-                                "^com\\.microsoft\\.rdc\\.mac$",
-                                "^com\\.microsoft\\.rdc\\.macos$",
-                                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                "^net\\.sf\\.cord$",
-                                "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                "^com\\.itap-mobile\\.qmote$",
+                                "^com\\.microsoft\\.rdc",
                                 "^com\\.nulana\\.remotixmac$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                "^com\\.p5sys\\.jump\\.mac\\.viewer",
                                 "^com\\.teamviewer\\.TeamViewer$",
-                                "^com\\.vmware\\.horizon$",
                                 "^com\\.2X\\.Client\\.Mac$",
-                                "^com\\.vmware\\.fusion$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.vmware\\.view$",
-                                "^com\\.parallels\\.desktop$",
+                                "^com\\.parallels\\.desktop",
                                 "^com\\.parallels\\.vm$",
-                                "^com\\.parallels\\.desktop\\.console$",
                                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                "^com\\.citrix\\.XenAppViewer$",
-                                "^com\\.vmware\\.proxyApp\\.",
                                 "^com\\.parallels\\.winapp\\.",
                                 "^com\\.apple\\.Terminal$",
                                 "^com\\.googlecode\\.iterm2$",
@@ -875,28 +644,14 @@
                     "conditions": [
                         {
                             "bundle_identifiers": [
-                                "^com\\.microsoft\\.rdc$",
-                                "^com\\.microsoft\\.rdc\\.mac$",
-                                "^com\\.microsoft\\.rdc\\.macos$",
-                                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                "^net\\.sf\\.cord$",
-                                "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                "^com\\.itap-mobile\\.qmote$",
+                                "^com\\.microsoft\\.rdc",
                                 "^com\\.nulana\\.remotixmac$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                "^com\\.p5sys\\.jump\\.mac\\.viewer",
                                 "^com\\.teamviewer\\.TeamViewer$",
-                                "^com\\.vmware\\.horizon$",
                                 "^com\\.2X\\.Client\\.Mac$",
-                                "^com\\.vmware\\.fusion$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.vmware\\.view$",
-                                "^com\\.parallels\\.desktop$",
+                                "^com\\.parallels\\.desktop",
                                 "^com\\.parallels\\.vm$",
-                                "^com\\.parallels\\.desktop\\.console$",
                                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                "^com\\.citrix\\.XenAppViewer$",
-                                "^com\\.vmware\\.proxyApp\\.",
                                 "^com\\.parallels\\.winapp\\.",
                                 "^com\\.apple\\.Terminal$",
                                 "^com\\.googlecode\\.iterm2$",
@@ -921,28 +676,14 @@
                     "conditions": [
                         {
                             "bundle_identifiers": [
-                                "^com\\.microsoft\\.rdc$",
-                                "^com\\.microsoft\\.rdc\\.mac$",
-                                "^com\\.microsoft\\.rdc\\.macos$",
-                                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                "^net\\.sf\\.cord$",
-                                "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                "^com\\.itap-mobile\\.qmote$",
+                                "^com\\.microsoft\\.rdc",
                                 "^com\\.nulana\\.remotixmac$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                "^com\\.p5sys\\.jump\\.mac\\.viewer",
                                 "^com\\.teamviewer\\.TeamViewer$",
-                                "^com\\.vmware\\.horizon$",
                                 "^com\\.2X\\.Client\\.Mac$",
-                                "^com\\.vmware\\.fusion$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.vmware\\.view$",
-                                "^com\\.parallels\\.desktop$",
+                                "^com\\.parallels\\.desktop",
                                 "^com\\.parallels\\.vm$",
-                                "^com\\.parallels\\.desktop\\.console$",
                                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                "^com\\.citrix\\.XenAppViewer$",
-                                "^com\\.vmware\\.proxyApp\\.",
                                 "^com\\.parallels\\.winapp\\.",
                                 "^com\\.apple\\.Terminal$",
                                 "^com\\.googlecode\\.iterm2$",
@@ -985,28 +726,14 @@
                     "conditions": [
                         {
                             "bundle_identifiers": [
-                                "^com\\.microsoft\\.rdc$",
-                                "^com\\.microsoft\\.rdc\\.mac$",
-                                "^com\\.microsoft\\.rdc\\.macos$",
-                                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                "^net\\.sf\\.cord$",
-                                "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                "^com\\.itap-mobile\\.qmote$",
+                                "^com\\.microsoft\\.rdc",
                                 "^com\\.nulana\\.remotixmac$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                "^com\\.p5sys\\.jump\\.mac\\.viewer",
                                 "^com\\.teamviewer\\.TeamViewer$",
-                                "^com\\.vmware\\.horizon$",
                                 "^com\\.2X\\.Client\\.Mac$",
-                                "^com\\.vmware\\.fusion$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.vmware\\.view$",
-                                "^com\\.parallels\\.desktop$",
+                                "^com\\.parallels\\.desktop",
                                 "^com\\.parallels\\.vm$",
-                                "^com\\.parallels\\.desktop\\.console$",
                                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                "^com\\.citrix\\.XenAppViewer$",
-                                "^com\\.vmware\\.proxyApp\\.",
                                 "^com\\.parallels\\.winapp\\.",
                                 "^com\\.apple\\.Terminal$",
                                 "^com\\.googlecode\\.iterm2$",
@@ -1044,28 +771,14 @@
                     "conditions": [
                         {
                             "bundle_identifiers": [
-                                "^com\\.microsoft\\.rdc$",
-                                "^com\\.microsoft\\.rdc\\.mac$",
-                                "^com\\.microsoft\\.rdc\\.macos$",
-                                "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-                                "^net\\.sf\\.cord$",
-                                "^com\\.thinomenon\\.RemoteDesktopConnection$",
-                                "^com\\.itap-mobile\\.qmote$",
+                                "^com\\.microsoft\\.rdc",
                                 "^com\\.nulana\\.remotixmac$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-                                "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
+                                "^com\\.p5sys\\.jump\\.mac\\.viewer",
                                 "^com\\.teamviewer\\.TeamViewer$",
-                                "^com\\.vmware\\.horizon$",
                                 "^com\\.2X\\.Client\\.Mac$",
-                                "^com\\.vmware\\.fusion$",
-                                "^com\\.vmware\\.horizon$",
-                                "^com\\.vmware\\.view$",
-                                "^com\\.parallels\\.desktop$",
+                                "^com\\.parallels\\.desktop",
                                 "^com\\.parallels\\.vm$",
-                                "^com\\.parallels\\.desktop\\.console$",
                                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                                "^com\\.citrix\\.XenAppViewer$",
-                                "^com\\.vmware\\.proxyApp\\.",
                                 "^com\\.parallels\\.winapp\\.",
                                 "^com\\.apple\\.Terminal$",
                                 "^com\\.googlecode\\.iterm2$",
